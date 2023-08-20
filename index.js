@@ -2,8 +2,6 @@
 
 module.exports.Thing = require('./thing');
 
-module.exports.Configurable = require('./config/configurable');
-
 module.exports.Discovery = require('./discovery');
 module.exports.Polling = require('./polling');
 
@@ -12,12 +10,9 @@ module.exports.RestorableState = require('./common/restorable-state');
 
 module.exports.ErrorState = require('./common/error-state');
 
-module.exports.Storage = require('./storage');
-
 module.exports.Children = require('./common/children');
 
 module.exports.Nameable = require('./common/nameable');
-module.exports.EasyNameable = require('./common/easy-nameable');
 
 module.exports.Power = require('./common/power');
 module.exports.SwitchablePower = require('./common/switchable-power');
